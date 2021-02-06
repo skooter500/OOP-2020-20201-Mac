@@ -50,9 +50,22 @@ public class Main
         String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new BugZap());
     }
+
+    public void sound3()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound3());
+    }
+
+    public void threeD()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new ThreeD());
+    }
+
     public static void main(String[] args)
     {
         Main main = new Main();
-        main.bugZap();
+        main.sound3();
     }
 } 
