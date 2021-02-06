@@ -60,7 +60,7 @@ public class Main
     public void threeD()
     {
         String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new ThreeD());
+        processing.core.PApplet.runSketch( a, new Sound3());
     }
 
     public static void main(String[] args)
